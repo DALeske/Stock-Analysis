@@ -186,7 +186,7 @@ Sub formatAllStocksAnalysisTable()
     'Number formats
     Range("B4:B15").NumberFormat = "#,##0"
     Range("C4:D15").NumberFormat = "$#,##0.00"
-    Range("E4:E15").NumberFormat = "0.00%"
+    Range("E4:E15").NumberFormat = "0.0%"
     Columns("B").AutoFit
     
         
@@ -337,7 +337,7 @@ Sub AllStocksAnalysisRefactored()
     Range("A3:C3").Font.FontStyle = "Bold"
     Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous
     Range("B4:B15").NumberFormat = "#,##0"
-    Range("C4:C15").NumberFormat = "0.00%"
+    Range("C4:C15").NumberFormat = "0.0%"
     Columns("B").AutoFit
 
     'Define starting and ending rows
